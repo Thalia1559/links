@@ -1,0 +1,105 @@
+body{
+	background-color: #f28fdd;
+}
+table{
+	margin: auto;
+}
+.logo img{
+	width: 100%;
+	height: 550px;
+}
+.menu ul li {
+	background-color: #070008;  /* define a cor de fundo de um elemento */
+	float: left;
+	width: 480px;               /* determina a largura do elemento */
+	height: 40px;               /* determina a altura do elemento */
+	display: inline-block;      /* define uma caixa de nível de bloco */
+	text-align: center;         /* alinhamento centralizado do texto */
+	line-height: 40px;          /* determina a altura da área do conteúdo de um elemento */
+	font-size: 24px;            /* tamanho da fonte do menu */
+	position: relative;         /* posiciona o elemento de acordo com as indicações que você definir */
+
+}
+.menu ul li:hover{
+	background-color: #fcacdb;  /* cor de fundo do menu */
+}
+.menu ul{
+	padding: 0px;               /* define o espaçamento ao redor de um elemento */
+}
+.menu ul ul{
+	display: none;              /* usada para ocultar completamente um elemento */
+}
+.menu ul li:hover > ul{
+	display: block;             /* o elemento irá ocupar o espaço de uma linha */
+}
+.munu ul ul ul{
+	margin-left:250px;          /* distâncias entre os menus */
+	top:0px;                    /* distância do 3º menu com o topo */
+	position: absolute;         
+}
+.menu ul ul li:hover{
+	background-color: #fcacdb;  /* cor de fundo do menu*/
+}
+.menu ul ul ul li:hover {
+	background-color: #062a66;  /* cor de fundo do menu*/
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+/* From Uiverse.io by barisdogansutcu */ 
+button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: #e0e05c;                     /* cor do botão*/
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(173 173 83) 0px 7px 29px 0px;  /*cor da fumaça*/
+  text-decoration: none;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: #e0e05c;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+  text-decoration: none;
+}
+
+a:link {
+	color: #ba119b;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #ba119b;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #ba119b;
+	text-decoration: none;
+}
+
+.texto p{
+	font-size: 30px;
+ 	font-family: "Dancing Script", serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	text-align: justify;
+}
